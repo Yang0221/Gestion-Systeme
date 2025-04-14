@@ -1,0 +1,18 @@
+.home img {
+    width: 150px;
+    height : 150px;
+    border-radius: 50%; /*圆角*/
+    margin-right: 40px;
+}
+.home .name {
+    font-size: 32 px;
+    margin-bottom: 10px;
+
+}
+.home .user {
+    display: flex;
+    align-items: center; /*  上下居中 */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px black; /*下划线不显示 ？？？*/
+}
