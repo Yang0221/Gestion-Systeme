@@ -34,7 +34,7 @@ const CommonAside = ({ collapsed}) =>{
     console.log(collapsed, 'commonAside')
     return(
         <Sider trigger={null} collapsed = {collapsed} >
-            <h3 className='app-name'>{collapsed? '后台':'通用后台管理系统'}</h3>
+            <h3 className='app-name'>{collapsed? '后台':'A通用后台管理系统'}</h3>
             <Menu
                 theme="dark"
                 mode="inline"

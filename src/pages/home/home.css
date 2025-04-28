@@ -14,5 +14,16 @@
     align-items: center; /*  上下居中 */
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px black; /*下划线不显示 ？？？*/
+    border-bottom: 1px solid #ccc; /*下划线不显示 ？？？*/
+}
+
+.home .login-info p{
+    line-height: 28px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.home .login-info p span{
+    color :#666666;
+    margin-left: 60px;
 }

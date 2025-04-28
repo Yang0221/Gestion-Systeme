@@ -2,6 +2,8 @@ import axios from 'axios'
 
 const baseUrl = '/api'
 
+//axios 二次封装的核心
+
 class HttpRequest {
     constructor(baseUrl) {
         this.baseUrl = baseUrl
@@ -37,10 +39,11 @@ class HttpRequest {
     }
 
     request(option) {
+        //对象的数据重组
         option = { ... this.getInsideConfig(), ...options }
-
+        //实例创建
         const instance = axios.create()
-
+        //实例拦截器的绑定
         this.interception(instance)
 
         return instance(options)

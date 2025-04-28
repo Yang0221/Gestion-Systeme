@@ -16,6 +16,10 @@ const Home = () => {
                             <p className="access">超级管理员</p>
                         </div>
                     </div>
+                    <div className="login-info">
+                        <p>上次登陆的时间： <span>today</span></p>
+                        <p>上次登陆的地点： <span>Bordeaux</span></p>
+                    </div>
                 </Card>
             </Col>
             <Col span={16}></Col>

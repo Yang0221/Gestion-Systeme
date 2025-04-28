@@ -1,9 +1,9 @@
 import http from './axios'
 
 export const getDate = () => {
-    http.request({
+    return http.request({
         url: '/home/getData',
-        method: 'get',
-        params: {}
+        method: 'get'
+        //params: {} 传入对应的参数
     })
 }
