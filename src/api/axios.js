@@ -38,9 +38,9 @@ class HttpRequest {
         });
     }
 
-    request(option) {
+    request(options) {
         //对象的数据重组
-        option = { ... this.getInsideConfig(), ...options }
+        options = { ...this.getInsideConfig(), ...options }
         //实例创建
         const instance = axios.create()
         //实例拦截器的绑定
